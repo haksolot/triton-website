@@ -21,14 +21,6 @@ const ScrollText = () => {
   }, [lastScrollY]);
 
   return (
-    // <div
-    //   className={`z-30 fixed top-0 left-0 mt-5 ml-5 h-16 flex items-center gap-2 text-center font-montserrat font-semibold text-sm md:text-base text-neutral-500 transition-all duration-500 ${
-    //     show ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5"
-    //   }`}
-    // >
-    //   <img src="/logo.png" alt="Logo" className="aspect-square h-9" />
-    //   <span>Triton Drilling</span>
-    // </div>
     <div
       className={`select-none z-40 fixed top-5 h-16 flex items-center gap-2 font-montserrat font-semibold text-sm md:text-base text-neutral-500 transition-all duration-500
     ${show ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5"}
@@ -37,7 +29,7 @@ const ScrollText = () => {
     px-4 md:px-0
   `}
     >
-      <img src="/logo.png" alt="Logo" className="aspect-square h-9" />
+      <img src={`${import.meta.env.BASE_URL}/logo.png`} alt="Logo" className="aspect-square h-9" />
       <span>Triton Drilling</span>
     </div>
   );

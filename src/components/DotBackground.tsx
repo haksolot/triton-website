@@ -15,7 +15,7 @@ const DotBackground = () => {
     canvas.height = height;
 
     const spacing = 40;
-    const radius = 2;
+    const radius = 1;
     const dots: { x: number; y: number }[] = [];
 
     for (let x = 0; x < width; x += spacing) {
