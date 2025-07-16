@@ -29,7 +29,7 @@ const ScrollText = () => {
     px-4 md:px-0
   `}
     >
-      <img src={`${import.meta.env.BASE_URL}/logo.png`} alt="Logo" className="aspect-square h-9" />
+      <img src={`/logo.png`} alt="Logo" className="aspect-square h-9" />
       <span>Triton Drilling</span>
     </div>
   );

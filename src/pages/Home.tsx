@@ -67,7 +67,7 @@ export default function Home() {
             <div className="ring-2 ring-green-600 self-center rounded-2xl w-full overflow-hidden">
               <img
                 // src="/image-1.jpg"
-                src={`${import.meta.env.BASE_URL}/image-1.jpg`}
+                src={`/image-1.jpg`}
                 alt="image-1"
                 className="w-full h-auto grayscale"
               />
@@ -78,7 +78,7 @@ export default function Home() {
             <div className="flex-1 ring-2 ring-green-500 self-center rounded-2xl w-full overflow-hidden">
               <img
                 // src="/image-2.jpg"
-                src={`${import.meta.env.BASE_URL}/image-2.jpg`}
+                src={`/image-2.jpg`}
                 alt="image-2"
                 className="w-full h-auto grayscale"
               />

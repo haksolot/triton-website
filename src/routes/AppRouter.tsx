@@ -6,7 +6,7 @@ import Home from "../pages/Home";
 
 export default function AppRouter() {
   return (
-    <BrowserRouter basename="/triton-website/">
+    <BrowserRouter basename="/">
       <Routes>
         <Route element={<MainLayout />}>
         <Route path="/" element={<Home/>} />
