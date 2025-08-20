@@ -9,9 +9,9 @@ const ScrollText = () => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
       if (currentScrollY > lastScrollY && currentScrollY > 50) {
-        setShow(false); // scroll down = hide
+        setShow(false); 
       } else if (currentScrollY < lastScrollY) {
-        setShow(true); // scroll up = show
+        setShow(true); 
       }
       setLastScrollY(currentScrollY);
     };

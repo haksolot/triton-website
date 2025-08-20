@@ -15,7 +15,7 @@
         {/* Partie droite (infos de contact) */}
         <div className="flex flex-col md:flex-row items-center gap-2 md:gap-6 text-white text-sm">
           <span>📍 France, Nay</span>
-          <span>📧 steve@tritondrilling.com</span>
+          <span>📧 contact@tritondrilling.com</span>
         </div>
       </div>
     </footer>

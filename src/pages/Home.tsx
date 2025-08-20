@@ -83,7 +83,7 @@ export default function Home() {
                 className="w-full h-auto grayscale"
               />
             </div>
-            <div className="z-10 flex-1 font-montserrat text-2xl md:text-4xl font-medium flex flex-col gap-3">
+            {/* <div className="z-10 flex-1 font-montserrat text-2xl md:text-4xl font-medium flex flex-col gap-3">
               Our Technology
               <div className="font-montserrat font-extralight text-xl md:text-2xl">
                 In partnership with a top-tier Canadian rig manufacturer, our
@@ -93,6 +93,19 @@ export default function Home() {
                 </span>{" "}
                 over their lifetime.
               </div>
+            </div> */}
+            <div className="z-10 flex-1 font-montserrat text-2xl md:text-4xl font-medium flex flex-col gap-3">
+              Our Technology
+              <div className="font-montserrat font-extralight text-xl md:text-2xl">
+                With a deep understanding of international markets and current
+                technologies, we deliver an integrated approach combining the
+                most promising innovations. Our goal: design rigs that are
+                high-performance, economically viable, and sustainable.
+                <br />
+                <br />
+                In addition, our low-emission rigs are engineered to minimize
+                environmental impact while supporting the energy transition.
+              </div>
             </div>
           </div>
         </div>
@@ -101,8 +114,10 @@ export default function Home() {
           Our focus
           <div className="font-montserrat font-extralight text-xl md:text-2xl">
             We target onshore markets with high potential for green tech,
-            including <span className="font-light">Sub-Saharan Africa</span> and{" "}
-            <span className="font-light">France</span>.
+            including <span className="font-light">Sub-Saharan Africa</span>,
+            <span className="font-light"> France</span>,
+            <span className="font-light"> Europe</span>, and
+            <span className="font-light"> South America</span>.
           </div>
           <div className="md:w-[70vw] lg:w-[50vw] xl:w-[30vh]">
             <WorldMap />
@@ -121,7 +136,7 @@ export default function Home() {
             </div>
             <div className="font-poppins text-xl font-extralight">
               High-performance, low-emission rigs for sustainable energy
-              projects.
+              projects (100% electrical rig)
             </div>
           </div>
         </div>
@@ -132,7 +147,8 @@ export default function Home() {
               Well Intervention
             </div>
             <div className="font-poppins text-xl font-extralight">
-              Efficient solutions to maintain and optimize existing wells.
+              Efficient solutions to maintain and optimize existing wells, Plug
+              and Abandon , well reconversion for energy storage.
             </div>
           </div>
         </div>
@@ -164,12 +180,6 @@ export default function Home() {
             60,000
           </span>
           tons of CO₂ saved per rig over its full lifecycle.
-        </div>
-        <div className="z-10 bg-white/25 backdrop-blur-sm w-3/4 h-fit justify-center flex flex-row items-center p-4 gap-3 rounded-2xl ring-2 ring-green-600 text-justify-center font-poppins text-xl font-light">
-          <span className="p-4 font-montserrat font-bold sm:text-5xl text-3xl text-green-700">
-            100+
-          </span>
-          rigs built by our Canadian manufacturing partner.
         </div>
       </div>
       <div
