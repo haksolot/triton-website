@@ -190,7 +190,7 @@ In 2025, he became Managing Director at Triton, focused on developing sustainabl
         </div>
         <div className="z-10 bg-white/25 backdrop-blur-sm w-3/4 h-fit justify-center flex flex-row items-center p-4 gap-3 rounded-2xl ring-2 ring-green-600 text-justify-center font-poppins text-xl font-light">
           <span className="p-4 font-montserrat font-bold sm:text-5xl text-3xl text-green-700">
-            30+
+            45
           </span>
           years of combined experience in energy drilling.
         </div>
