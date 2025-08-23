@@ -22,14 +22,14 @@ const ScrollText = () => {
 
   return (
     <div
-      className={`select-none z-40 fixed top-5 h-16 flex items-center gap-2 font-montserrat font-semibold text-sm md:text-base text-neutral-500 transition-all duration-500
+      className={`select-none z-40 fixed top-7 h-16 flex items-center gap-2 font-montserrat font-semibold text-sm md:text-base text-neutral-500 transition-all duration-500
     ${show ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5"}
     w-full md:w-auto md:ml-5
     justify-center md:justify-start
     px-4 md:px-0
   `}
     >
-      <img src={`/logo.png`} alt="Logo" className="aspect-square h-9" />
+      <img src={`/logo.png`} alt="Logo" className="aspect-square md:h-16 h-10" />
       <span>Triton Drilling</span>
     </div>
   );

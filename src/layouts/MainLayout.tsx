@@ -26,12 +26,9 @@ export default function MainLayout() {
   return (
     <>
       <ScrollText />
-      {/* <div className={`h-16 w-screen fixed flex flex-row top-0 z-40 ${!showScrollText ? "mt-8" : "mt-20"}`}>
-        <Navbar/>
-      </div> */}
       <div
         className="h-16 w-screen fixed flex flex-row top-0 z-40 transition-all duration-500"
-        style={{ marginTop: showScrollText ? "5rem" : "2rem" }} // mt-20 ou mt-8
+        style={{ marginTop: showScrollText ? "5rem" : "2rem" }} 
       >
         <Navbar />
       </div>
