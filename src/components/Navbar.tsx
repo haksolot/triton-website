@@ -13,28 +13,20 @@ export default function Navbar() {
           About
         </Link>
         <Link
+          to="team"
+          smooth={true}
+          duration={500}
+          className="select-none text-sm md:text-base cursor-pointer"
+        >
+          Team
+        </Link>
+        <Link
           to="services"
           smooth={true}
           duration={500}
           className="select-none text-sm md:text-base cursor-pointer"
         >
           Services
-        </Link>
-        <Link
-          to="whyus"
-          smooth={true}
-          duration={500}
-          className="select-none text-sm md:text-base cursor-pointer"
-        >
-          Why us ?
-        </Link>
-        <Link
-          to="contacts"
-          smooth={true}
-          duration={500}
-          className="select-none text-sm md:text-base cursor-pointer"
-        >
-          Contacts
         </Link>
       </div>
     </div>

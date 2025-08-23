@@ -203,11 +203,11 @@ In 2025, he became Managing Director at Triton, focused on developing sustainabl
       </div>
         <div
           id="about"
-          className="z-40 flex flex-row gap-3 items-center justify-center mt-20"
+          className="z-40 flex flex-row gap-3 items-center justify-center mt-20 p-14"
         >
           <p className="font-montserrat text-lg">More about our services:</p>
           <a
-            href="/presentation.pptx"
+            href="/tritonpresentation.pdf"
             download
             className="font-montserrat text-lg font-bold px-4 py-2 bg-green-700 text-white rounded-xl shadow hover:bg-green-800 transition"
           >
